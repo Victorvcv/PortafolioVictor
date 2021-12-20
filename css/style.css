@@ -1,0 +1,129 @@
+@charset "utf-8";
+/*************************************************************************************
+*	Theme Name: Juno
+*	Theme URI: http://juno.dealsontips.com
+*	Description: This is a coming soon theme
+*	Version: 1.0
+*	Author: Yogesh Raj
+*	Author URI: http://www.dealsontips.com
+*	css structure:
+*	==============
+*	1. typography
+*
+*	2. common class
+*
+*	4. home
+*
+*	13. animation
+*	
+**************************************************************************************/
+/*-- =================================
+1. typography
+================================= --*/
+
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    overflow-x: hidden;    
+    background-color: transparent;
+}
+
+
+a {
+    color: white;
+    
+    outline: 1;
+    cursor: pointer;
+}
+a:hover {
+    color: #00665C;
+    
+}
+a:focus {
+    outline: 0;
+    color: #0C7F75;
+    outline-offset: -2px;
+    text-decoration: none;
+}
+ 
+/*-- =================================
+2. common class
+================================= --*/
+
+.img-responsive {
+    margin: 0 auto;
+}
+.hyphenate {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+
+
+/*-- =================================
+4. home
+================================= --*/
+
+.home {
+    overflow: hidden;
+}
+
+.home-subscription {
+    height: 100vh;
+    background: url(../images/background/background-image-1.jpg);
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-subscription .intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    color: #f0f0f0;
+    background-color: rgba(15, 15, 15, 0.70) !important;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+
+}
+/* media queries */
+/* media queries for home-subscription & */
+@media only screen and ( max-width: 768px) {}
+
+@media only screen and ( max-width: 768px) {
+
+    #contenedorRow{
+        margin-top: 150px;
+    }
+
+@media only screen and ( max-width: 563px) {
+
+    #contenedorRow{
+        margin-top: 100px;
+    }
+
+@media ( max-width: 479px) {
+
+    #cont_nav{
+        margin-top: 40px;
+    }
+    #contenedorRow{
+        margin-top: 200px;
+    }
+}
+
+
+
