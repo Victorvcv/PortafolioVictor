@@ -1,0 +1,412 @@
+/* esto es para los iconos*/@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+@import url(../fonts/fuentes.css);
+/* Reset */
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		/*vertical-align: baseline;*/ /*para alinear las tablas tomadas del mailing*/
+	}
+		
+
+img {
+		width: 100%;
+		min-width: 100%;		
+	}
+
+
+#main {
+		margin: 0 auto;
+		width: 650px;
+		max-width: 95%;
+		margin-bottom: 2rem;
+		background: rgba(255, 255, 255, 0.95);
+		-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+		box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+		
+		
+		
+	}
+
+
+
+header {padding: 0px 0px 30px 00px;}
+
+/*textosssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
+		p {
+			color: #8a8a8a;
+		line-height: 1.65;	
+		letter-spacing: 0.1px;	
+		font-family: "amiriregular";
+		font-weight: ;
+		margin-bottom: 30px;
+
+	}
+
+	.subrayadoAmarillo{
+		
+		background-color: #edff01;
+	}
+
+	.subrayadoAzul{
+		
+		background-color: #00caff;
+	}
+
+.subrayadoRosa{
+		
+		background-color: #ff70b3;
+	}
+
+
+.subrayadoVerde{
+		
+		background-color: #23e500;
+	}
+
+
+
+
+
+		h1{
+		color:#000;
+		line-height: 1.65;	
+		font-size: 20px;	
+		font-family: "amiriregular";
+		font-weight: 300;
+		text-align: center;
+		background-color: transparent;
+		}
+
+		h2{
+		color: #8a8a8a;
+				
+		font-family: "calibri";
+		font-weight: lighter;
+		text-align: center;
+		letter-spacing: -2.5px;	
+		font-size: 50px;
+
+	}
+
+		h3{
+		color: #8a8a8a;
+			
+		font-family: "calibri";
+		font-weight: bolder;
+		text-align: center;
+		margin-top: -10px;
+		letter-spacing: -0.5px;	
+}
+
+h4{
+		color: #8a8a8a;
+		line-height: 1.65;		
+		font-family: "calibri";
+		font-weight: lighter;
+		text-align: left;
+		margin-top: -20px;
+		letter-spacing: 0px;	
+		padding: 20px 0px 20px 30px;
+		
+}
+
+
+
+h5{
+		color: #3b3b3b;
+		line-height: 1.65;		
+		font-family: "calibri";
+		font-weight: bolder;
+		text-align: center;
+		margin-top: -4px;
+		letter-spacing: -0.8px;	
+		padding: 40px 0 20px 0px;
+				font-size: 25px;
+}
+
+		a {
+			text-decoration: underline;
+			}
+
+			a:hover {
+			text-decoration: none;
+				}
+
+		strong {
+			font-weight: 600;
+			color: #1e1f23;
+			}
+
+		b {
+			font-weight: 600;
+			color: #1e1f23;
+			}
+
+
+
+.textoPrincipal{
+	padding: 30px 10px 30px 30px;
+	max-width: 90%;
+	
+}
+
+
+
+.ElVideo{
+
+	width:300px; 
+	height:100px;
+}
+
+
+
+
+/*------------------------------------------------------------------*/
+
+		body {		
+				
+
+			background-color: #f9f8ec;		
+			
+		}
+
+		body:after {
+			-moz-pointer-events: none;
+			-webkit-pointer-events: none;
+			-ms-pointer-events: none;
+			pointer-events: none;
+			-moz-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			-webkit-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			content: '';
+			background-image: url(../../images/fondo.jpg);		
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: fixed;
+			display: block;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			z-index: -1;
+			visibility: visible;
+			opacity: 0.2;
+
+		}
+
+
+
+
+/* Contenedor principal Main -----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/* Footer */
+
+	#footer {
+		
+		text-align: center;
+		padding: 20px;
+		background-color: #b2b2b2;
+		
+	}
+
+		#footer a {
+			color: #fff;
+		}
+
+			#footer a:hover {
+				color: #515151;
+			}
+
+
+		/* Icon */
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+
+		-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+			font-size: 2rem;
+	}
+
+	.label {
+			display: none;
+			text-decoration: none;
+		}
+
+		
+li {list-style: none;}
+
+
+
+
+
+
+
+
+/* Type tama;o de FUENTES en mediaqueris ---------------------------------------------*/
+		@media screen and (min-width: 1681px) {
+
+
+
+		}
+
+		}	
+
+		@media screen and (max-width: 1680px) {}
+
+		@media screen and (min-width: 1280px) {
+			
+
+
+		}		
+
+		@media screen and (min-width: 981px) {
+			
+#espaciaDor{
+
+	height:0px;
+}
+
+		}	
+
+
+  @media screen and (max-width: 800px) {
+            
+                  #sidebar-wrapper.active {
+    
+    width: 100%;
+    height: 140px;
+
+}
+
+}
+
+
+
+
+		@media screen and (max-width: 980px) {	
+					.ElVideo{
+
+	width:550px; 
+	height:138px;
+}	
+		}
+
+		@media screen and (max-width: 736px) {
+			
+		
+		}
+		@media screen and (max-width: 700px) {
+			#main {width: 100%; 
+					max-width: 100%;}
+
+					h1{
+		
+		text-align: left;}
+		
+		}
+
+
+@media screen and (max-width: 550px) {
+	
+		
+		}
+
+		@media screen and (max-width: 480px) {
+			h2{
+		
+		font-size: 40px;
+
+	}
+	
+	.ElVideo{
+
+	width:300px; 
+	height:130px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Table 
+
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+
+	.table-wrapper {
+		-webkit-overflow-scrolling: touch;
+		overflow-x: auto;
+	}
+
+	table {
+		
+		width: 100%;
+	}
+
+
+
+
+
+
+
+		-----------------------------------------------------------------------------------------------------------------*/

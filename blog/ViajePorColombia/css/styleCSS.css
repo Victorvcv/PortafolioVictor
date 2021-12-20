@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+/*-- =================================
+1. typography
+================================= --*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    overflow-x: hidden;
+    
+}
+
+a {
+    color: #0C7F75;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+section {
+    overflow: hidden;
+}
+/*-- =================================
+2. common class
+================================= --*/
+
+/* tooltip */
+
+
+/* ionicons font size */
+
+.size-14 {
+    font-size: 14px;
+}
+.size-18 {
+    font-size: 18px;
+}
+.size-24 {
+    font-size: 24px;
+}
+.size-28 {
+    font-size: 28px;
+}
+.size-32 {
+    font-size: 32px;
+}
+.size-48 {
+    font-size: 48px;
+}
+.size-64 {
+    font-size: 64px;
+}
+.size-96 {
+    font-size: 96px;
+}
+/* transition */
+
+.btn,
+.nav > li > a,
+#sidebar-wrapper,
+#sidebar-wrapper .active,
+.form-content .form-control,
+.carousel-content .nav-roundslide a,
+.service-row > div:hover > .service-box,
+.service-row .service-box .service-icon,
+.carousel-content .nav-roundslide a:hover h3 {
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+/*-- =================================
+3. sidebar menu
+================================= --*/
+
+#menu-toggle {
+    z-index: 1500;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#sidebar-wrapper {
+    z-index: 1500;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 103px;
+    margin-left: -250px;
+    overflow-x: hidden;
+    background-color: black;
+}
+#sidebar-wrapper.active {
+    left: 250px;
+    width: 360px;
+
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+
+/* menu and close Button */
+
+
+.btn-menu:hover,
+.btn-menu:focus,
+.btn-menu:active {
+    color: #fff;
+    background-color: #0C7F75;
+}
+.btn-close {
+    position: absolute;
+    margin-right: -70px;
+    margin-top: 15px;
+    right: 75px;
+    border-radius: 0;
+    color: #fff;
+    
+    z-index: 1;
+  
+    font-family: arial;
+
+}
+.btn-close:hover,
+.btn-close:focus,
+.btn-close:active {
+    color: red;
+}
+
+
+/*-- =================================
+13. animation
+================================= --*/
+
+.animation {
+    opacity: 0;
+}
+.animation.animated {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+/* Type tama;o de FUENTES en mediaqueris ---------------------------------------------*/
+        @media screen and (min-width: 1681px) {}    
+
+        @media screen and (max-width: 1680px) {}
+
+        @media screen and (max-width: 1280px) {
+
+
+        }        
+
+        @media screen and (max-width: 980px) {  
+                #sidebar-wrapper.active {
+            width: 100%;
+            height: 145px;
+        }
+        }
+
+        @media screen and (max-width: 800px) {
+            
+                  
+        }
+        @media screen and (max-width: 700px) {
+
+
+           
+
+        @media screen and (max-width: 480px) {
+       
+       #sidebar-wrapper.active {
+    
+    width: 100%;
+    height: 145px;
+
+}
+
+}
